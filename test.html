@@ -39,8 +39,8 @@
                     width: "1000px"
                 }
                 dashboard = QuickSightEmbedding.embedDashboard(options)
-                //dashboard.on('error', onError)
-                //dashboard.on('load', onDashboardLoad)
+                dashboard.on('error', onError)
+                dashboard.on('load', onDashboardLoad)
         }
     
     </script>
